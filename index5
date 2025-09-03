@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Github blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f7fa;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #34495e;
+            color: white;
+            padding: 24px;
+            text-align: center;
+        }
+        .posts {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 0 16px;
+        }
+        .post {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+            margin-bottom: 26px;
+            padding: 24px;
+        }
+        .post h2 {
+            margin: 0 0 8px 0;
+            color: #2d3e50;
+        }
+        .post .date {
+            color: #888;
+            font-size: 0.95em;
+            margin-bottom: 12px;
+        }
+        .contact {
+            background: #fff;
+            margin: 40px auto 0 auto;
+            padding: 20px;
+            border-radius: 8px;
+            width: 90%;
+            max-width: 500px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+            text-align: center;
+        }
+        footer {
+            background: #34495e;
+            color: white;
+            text-align: center;
+            padding: 12px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Github blog</h1>
+        <p>Historias, ideas y recursos para compartir</p>
+    </header>
+
+    <section class="posts">
+        <div class="post">
+            <h2>¡Bienvenido al Blog!</h2>
+            <div class="date">3 de septiembre de 2025</div>
+            <p>Este es el primer post del blog. Aquí puedes compartir tus ideas, experiencias, tutoriales y mucho más.</p>
+        </div>
+        <div class="post">
+            <h2>Cómo crear tu propia página web</h2>
+            <div class="date">1 de septiembre de 2025</div>
+            <p>En este artículo aprenderás los pasos básicos para crear una página web desde cero utilizando HTML y CSS. ¡No necesitas experiencia previa!</p>
+        </div>
+        <div class="post">
+            <h2>Recursos gratuitos para desarrolladores</h2>
+            <div class="date">30 de agosto de 2025</div>
+            <p>Descubre una lista de herramientas y recursos gratuitos que te ayudarán a mejorar tus habilidades como programador.</p>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contacto</h2>
+        <p>¿Tienes preguntas o deseas colaborar? Escríbeme a <a href="mailto:blog@jordany.com">blog@jordany.com</a></p>
+    </section>
+
+    <footer>
+        &copy; 2025 Github blog. Todos los derechos reservados.
+    </footer>
+
+</body>
+</html>
