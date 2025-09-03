@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jordany's Call Center</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f6fa;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #005fa3;
+            color: white;
+            padding: 24px;
+            text-align: center;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 30px 0;
+        }
+        .service {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            margin: 15px;
+            width: 240px;
+            padding: 16px;
+            text-align: center;
+        }
+        .service img {
+            max-width: 80px;
+            margin-bottom: 10px;
+        }
+        .contact {
+            background: #fff;
+            margin: 30px auto;
+            padding: 20px;
+            border-radius: 8px;
+            width: 90%;
+            max-width: 500px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+        }
+        footer {
+            background: #005fa3;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Jordany's Call Center</h1>
+        <p>Connecting Customers with Solutions 24/7</p>
+    </header>
+
+    <section class="services">
+        <div class="service">
+            <img src="https://cdn-icons-png.flaticon.com/512/5973/5973810.png" alt="Customer Support">
+            <h2>Customer Support</h2>
+            <p>Friendly agents ready to assist with any inquiry.</p>
+        </div>
+        <div class="service">
+            <img src="https://cdn-icons-png.flaticon.com/512/3163/3163858.png" alt="Technical Assistance">
+            <h2>Technical Assistance</h2>
+            <p>Expert help for technical problems and troubleshooting.</p>
+        </div>
+        <div class="service">
+            <img src="https://cdn-icons-png.flaticon.com/512/2917/2917242.png" alt="Sales Inquiries">
+            <h2>Sales Inquiries</h2>
+            <p>Information and support for our products and services.</p>
+        </div>
+        <div class="service">
+            <img src="https://cdn-icons-png.flaticon.com/512/4743/4743037.png" alt="Live Chat">
+            <h2>Live Chat</h2>
+            <p>Instant chat support for quick resolutions.</p>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:support@jordanycallcenter.com">support@jordanycallcenter.com</a></p>
+        <p>Phone: +1 555-234-5678</p>
+        <p>Address: 789 Service Road, Connect City</p>
+    </section>
+
+    <footer>
+        &copy; 2025 Jordany's Call Center. All rights reserved.
+    </footer>
+
+</body>
+</html>c
