@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Academia Github blog - Cursos Online</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #f3f6fb;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 28px;
+            text-align: center;
+        }
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 0 18px;
+        }
+        .intro {
+            background: #fff;
+            padding: 24px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+        }
+        .cursos {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 24px;
+            justify-content: center;
+        }
+        .curso {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            width: 260px;
+            padding: 20px;
+            margin-bottom: 16px;
+            text-align: center;
+        }
+        .curso img {
+            max-width: 100%;
+            height: 100px;
+            object-fit: contain;
+            margin-bottom: 12px;
+            border-radius: 6px;
+        }
+        .curso h2 {
+            color: #2c3e50;
+            font-size: 1.2em;
+            margin: 0 0 7px 0;
+        }
+        .curso p {
+            margin-bottom: 8px;
+            color: #555;
+        }
+        .inscribirse {
+            background: #2c3e50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+        .inscribirse:hover {
+            background: #1a252f;
+        }
+        .contacto {
+            background: #fff;
+            margin: 40px auto 0 auto;
+            padding: 20px;
+            border-radius: 8px;
+            width: 90%;
+            max-width: 500px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+            text-align: center;
+        }
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 14px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Academia Github blog</h1>
+        <p>Descubre nuestros cursos online y aprende desde cualquier lugar</p>
+    </header>
+
+    <div class="container">
+        <section class="intro">
+            <h2>Bienvenido a tu espacio de aprendizaje</h2>
+            <p>En Academia Github blog ofrecemos cursos prácticos y actualizados sobre tecnología, programación y desarrollo personal. Elige el curso que más te interese y comienza a aprender hoy mismo.</p>
+        </section>
+
+        <section class="cursos">
+            <div class="curso">
+                <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80" alt="Curso HTML y CSS">
+                <h2>Curso de HTML y CSS</h2>
+                <p>Aprende a crear páginas web desde cero con HTML y CSS.</p>
+                <button class="inscribirse">Inscribirse</button>
+            </div>
+            <div class="curso">
+                <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=400&q=80" alt="Curso JavaScript">
+                <h2>Introducción a JavaScript</h2>
+                <p>Domina los fundamentos del lenguaje más usado en la web.</p>
+                <button class="inscribirse">Inscribirse</button>
+            </div>
+            <div class="curso">
+                <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80" alt="Curso de Git y Github">
+                <h2>Control de versiones con Git y Github</h2>
+                <p>Gestiona tus proyectos de forma profesional usando Git y Github.</p>
+                <button class="inscribirse">Inscribirse</button>
+            </div>
+            <div class="curso">
+                <img src="https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=400&q=80" alt="Curso Desarrollo Personal">
+                <h2>Desarrollo Personal y Productividad</h2>
+                <p>Mejora tu organización, hábitos y habilidades blandas.</p>
+                <button class="inscribirse">Inscribirse</button>
+            </div>
+        </section>
+
+        <section class="contacto">
+            <h2>¿Tienes dudas o quieres más información?</h2>
+            <p>Escríbenos a <a href="mailto:cursos@githubblog.com">cursos@githubblog.com</a> o llama al +1 555-987-6543</p>
+        </section>
+    </div>
+
+    <footer>
+        &copy; 2025 Academia Github blog. Todos los derechos reservados.
+    </footer>
+</body>
+</html>
