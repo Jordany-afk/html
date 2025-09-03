@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Help & Support | Jordany's Call Center</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f8fafc;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #005fa3;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            padding: 30px;
+        }
+        h2 {
+            color: #005fa3;
+            margin-top: 0;
+        }
+        .faq {
+            margin-bottom: 32px;
+        }
+        .faq-item {
+            margin-bottom: 18px;
+        }
+        .faq-item h3 {
+            margin: 0 0 6px 0;
+            font-size: 1.1em;
+            color: #0063b2;
+        }
+        .troubleshoot {
+            background: #eff6fb;
+            border-left: 4px solid #005fa3;
+            padding: 18px;
+            margin-bottom: 32px;
+        }
+        .contact {
+            background: #f0f4f8;
+            border-radius: 6px;
+            padding: 18px;
+            margin-bottom: 18px;
+        }
+        footer {
+            background: #005fa3;
+            color: white;
+            text-align: center;
+            padding: 12px 0;
+            margin-top: 40px;
+        }
+        a {
+            color: #005fa3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Help & Support</h1>
+        <p>How can we help you with Jordany's Call Center?</p>
+    </header>
+    <div class="container">
+        <section class="troubleshoot">
+            <h2>Troubleshooting Tips</h2>
+            <ul>
+                <li><strong>Can’t reach an agent?</strong> Try refreshing the page or check your internet connection.</li>
+                <li><strong>Live chat not working?</strong> Make sure popups are enabled and try a different browser.</li>
+                <li><strong>Technical support needed?</strong> Email us at <a href="mailto:support@jordanycallcenter.com">support@jordanycallcenter.com</a> or call +1 555-234-5678.</li>
+            </ul>
+        </section>
+        <section class="faq">
+            <h2>Frequently Asked Questions (FAQ)</h2>
+            <div class="faq-item">
+                <h3>How can I contact an agent?</h3>
+                <p>You can call our hotline, use live chat, or fill out the contact form on our main page.</p>
+            </div>
+            <div class="faq-item">
+                <h3>What services does your call center provide?</h3>
+                <p>We offer customer support, technical assistance, sales inquiries, and live chat support.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Is support available 24/7?</h3>
+                <p>Yes, our agents are available around the clock to assist you.</p>
+            </div>
+            <div class="faq-item">
+                <h3>I didn’t receive a response. What should I do?</h3>
+                <p>Check your spam folder if you contacted us by email, or try reaching out again through another channel.</p>
+            </div>
+        </section>
+        <section class="contact">
+            <h2>Need More Help?</h2>
+            <p>Email: <a href="mailto:support@jordanycallcenter.com">support@jordanycallcenter.com</a></p>
+            <p>Phone: +1 555-234-5678</p>
+            <p>Or visit our <a href="call-center.html">main Call Center page</a>.</p>
+        </section>
+    </div>
+    <footer>
+        &copy; 2025 Jordany's Call Center. All rights reserved.
+    </footer>
+</body>
+</html>
