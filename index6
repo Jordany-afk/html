@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Reserva de Servicios - Github blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f6fafd;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #34495e;
+            color: white;
+            padding: 24px;
+            text-align: center;
+        }
+        .container {
+            max-width: 500px;
+            margin: 40px auto;
+            padding: 24px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 0;
+        }
+        label {
+            display: block;
+            margin-top: 18px;
+            margin-bottom: 6px;
+            color: #222;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            margin-bottom: 15px;
+            font-size: 1em;
+        }
+        textarea {
+            resize: vertical;
+        }
+        button {
+            background: #34495e;
+            color: white;
+            border: none;
+            padding: 12px 28px;
+            border-radius: 6px;
+            font-size: 1.1em;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #2d3e50;
+        }
+        .info {
+            margin: 32px 0 0 0;
+            background: #f0f4f8;
+            border-radius: 8px;
+            padding: 18px;
+            color: #333;
+        }
+        footer {
+            background: #34495e;
+            color: white;
+            text-align: center;
+            padding: 12px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Reserva de Servicios</h1>
+        <p>Agenda tu servicio con facilidad</p>
+    </header>
+
+    <div class="container">
+        <h2>Formulario de Reserva</h2>
+        <form>
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono">
+
+            <label for="servicio">Selecciona el servicio:</label>
+            <select id="servicio" name="servicio" required>
+                <option value="">-- Selecciona --</option>
+                <option value="consulta">Consulta</option>
+                <option value="soporte-tecnico">Soporte Técnico</option>
+                <option value="asesoria">Asesoría</option>
+                <option value="otro">Otro</option>
+            </select>
+
+            <label for="fecha">Fecha preferida:</label>
+            <input type="date" id="fecha" name="fecha" required>
+
+            <label for="hora">Hora preferida:</label>
+            <input type="time" id="hora" name="hora" required>
+
+            <label for="mensaje">Comentarios adicionales:</label>
+            <textarea id="mensaje" name="mensaje" rows="3"></textarea>
+
+            <button type="submit">Reservar Servicio</button>
+        </form>
+        <div class="info">
+            <h3>¿Tienes dudas?</h3>
+            <p>Contáctanos en <a href="mailto:servicios@githubblog.com">servicios@githubblog.com</a> o llama al +1 555-123-4567.</p>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 Github blog. Todos los derechos reservados.
+    </footer>
+
+</body>
+</html>
